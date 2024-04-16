@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h3><center><u>Licensce Registration form</u></center></h3><hr>
+   <form method="post">
+    <label for="1">name:*</label>
+    <input type="text" name="name" id="1" placeholder="enter your name" required>
+    <br><br>
+    <label for="2">email:*</label>
+    <input type="email" name="email" id="2" placeholder="enter your email" required>
+    <br><br>
+    <lable for="3">date of birth:</lable>
+    <input type="date" name="dob" id="3">
+    <br><br>
+    <label for="4">age:</label>
+    <input type="number" name="email" id="4" placeholder="enter age" min="19">
+    <br><br>
+    <label for="5">ph:</label>
+    <input type="number" name="mbno" id="5" placeholder="enter mobile number" max="9999999999" min="1000000000">
+    <br><br>
+   <p>gender:</p>
+    <input type="radio" name="gender" id="6" value="m" required>
+    <label for="6">male</label>
+    <input type="radio" name="gender" id="7" value="f">
+    <label for="7">female</label>
+    <br><br>
+    <p>vehicle specifications</p>
+    <input type="checkbox" name="tire" value="tire" id="8">
+    <label for="8">tube less tires</label><br>
+    <input type="checkbox" name="sus" value="suspension" id="9">
+    <label for="9">hydraulic suspension</label>
+    <br><br>
+    <P>select vehicle:</P>
+    <select size="6" multiple required>
+        <option></option>
+        <optgroup label="two wheeler">
+            <option value="honda">honda</option>
+            <option value="yamaha">yamaha</option>
+            <option value="royal enfield">royal-enfield</option>
+        </optgroup>
+        <optgroup label="four wheeler">
+            <option value="bmw">bmw</option>
+            <option value="tata">tata</option>
+            <option value="ferari">ferari</option>
+        </optgroup>
+    </select>
+    <br><br>
+    <center><input type="reset" value="reset">
+        <button>submit</button></center>
+   </form>
+</body>
+</html>

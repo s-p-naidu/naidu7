@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+      <h1>Login form</h1>
+      <form>
+        <fieldset>
+          <legend>my form </legend>
+          <label for="1">name:</label>
+        <input type="text" name="name" id="1" maxlength="15" required>
+        <br><br>
+        <label for="2">review:</label>
+        <br>
+        <textarea id="2" cols="50" rows="10" required></textarea>
+        <br><br> 
+        <label for="3">choose icecream</label>
+        <input type="text" name="ice" list="icecream" id="3" required>
+        <datalist id="icecream">
+          <option value="chocolate">
+          <option value="vennila">
+          <option value="strawberry">
+          <option value="pista">
+        </datalist>
+        <br><br>
+        <center><button>submit</button></center>
+        </fieldset>
+      </form>
+      
+      
+  </body>
+</html>

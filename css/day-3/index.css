@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.main{
+    background-color:rgb(13, 194, 194);
+    margin-left:50vh;
+    margin-top:10vh;
+    height:400px;
+    width:200px;
+}
+.box{
+   background-color: white;
+   height:70px;
+   width:70px;
+   border-radius:50%;
+   margin-left:50px;
+   border:dotted black 3px;
+}
+.pole{
+    background-color: brown;
+    height:180px;
+    width:20px;
+    margin-left:75px;
+}
+.box1:hover{
+    background-color: red;
+}
+.box2:hover{
+    background-color: orange;
+}
+.box3:hover{
+    background-color: green;
+}

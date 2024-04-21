@@ -1,0 +1,17 @@
+body{
+    background-color:hsla(350,34%,56%,0.9);
+    height:100vh;
+}
+button{
+    background-color:white;
+    color:black; 
+   
+}
+
+#bgcolor{
+    background-color: blue;
+}
+.colorclass{
+    background-color: red;
+    color:white;
+}

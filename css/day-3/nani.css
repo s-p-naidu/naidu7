@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(red,black);
+    height:500px;
+    width:150px;
+}
+
+.box{
+    padding:100px;
+    background-color:rgb(228,220,220);
+    height:1px;
+    width:1px;
+    border-radius:50%;
+}
+.box1:hover{
+    background-color:red;
+}
+.box2:hover{
+    background-color: black;
+}
+.box3:hover{
+    background-color:green;
+}
+.main{
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+}

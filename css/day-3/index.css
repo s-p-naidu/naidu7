@@ -6,9 +6,11 @@ body{
 }
 
 .main{
-    background-color:rgb(13, 194, 194);
-    margin-left:50vh;
+    background-color:#0dc2c2;
+    margin:auto;
     margin-top:10vh;
+   /* margin-left:50vh;
+    margin-top:10vh;*/
     height:400px;
     width:200px;
 }
@@ -17,14 +19,16 @@ body{
    height:70px;
    width:70px;
    border-radius:50%;
-   margin-left:50px;
+   margin:auto;
+   /*margin-left:50px;*/
    border:dotted black 3px;
 }
 .pole{
     background-color: brown;
     height:180px;
     width:20px;
-    margin-left:75px;
+    margin:auto;
+    /*margin-left:75px;*/
 }
 .box1:hover{
     background-color: red;

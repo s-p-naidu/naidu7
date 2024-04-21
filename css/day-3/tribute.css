@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+20+Charted&display=swap');
+*{
+    box-sizing:border-box;
+}
+body{
+    background:linear-gradient(rgba(209, 238, 243, 0.688),rgba(215, 240, 240, 0));
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100vw;
+    background-size:100% 100%;
+}
+.main{
+    
+    height:70%;
+    width:60%;
+    background:url('./virat.jpg');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    /*filter:url(4px);-->for image blur*/
+    opacity:0.15;/*watermark*/
+    border-radius:50%;
+    margin-left:20%;
+}
+.content{
+    margin-bottom:-5%;
+}
+.content h4{
+    color:rgb(0, 0, 0);
+    margin-bottom:-25px;
+    text-align:center;
+}
+.content h1{
+    text-shadow:5px 2px 3px rgb(130, 63, 63);
+    text-decoration:underline wavy rgba(211, 106, 147, 0.688);
+    color:red;
+    text-align:center;
+    font-size:40px;
+}
+.content p{
+    text-decoration:line-through double green;
+    margin-top:-10px;
+    margin-bottom:-25px;
+    text-align:center;
+}
+.table{
+    padding-right:4%;
+    margin-top:-64vh;
+}
+.table img{
+    height:45vh;
+    width:30vw;
+    border-radius:9%;
+    filter:brightness(1.2);
+    filter:drop-shadow(0.2);
+    filter:hue-rotate(2);
+}
+.matter{
+    font-family: "Bebas Neue", sans-serif;
+    font-style:italic;
+    margin-right: 4%;
+    border:solid;
+    border-radius:5%;
+    font-size:larger;
+    color:rgb(188, 61, 61);
+    /*color:rgb(229, 241, 10);*/
+    font-weight:bold;
+    border-color:rgb(11, 1, 1);
+}
+.matter2{
+    margin-top:1vh;
+    color:black;
+}
+.innertable{
+    margin-left:15%;
+    margin-top:-4%;
+}
+.subheading{
+    margin-top:-0.01%;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline dotted;
+}
+.innertable th{
+    background-color: rgb(225, 253, 253);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.innertable td{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    font-style:italic;
+}
+.innertable th:hover{
+    background-color:blue;
+}
+.innertable td:active{
+    background-color:brown;
+}

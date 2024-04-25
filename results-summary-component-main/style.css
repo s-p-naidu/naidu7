@@ -1,0 +1,114 @@
+body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.main{
+    width:80vw;
+    display:flex;
+    flex-direction:row;
+    
+}
+.box1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:radial-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%),hsla(256, 72%, 46%, 1));
+    width:40vw;
+    border-radius:10%;
+    padding:5%;
+}
+
+
+.box1 div{
+    text-align:center;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color:blue;
+}
+
+.box1 div>h1{
+    color:white;
+    font-size: 40px;
+    margin-bottom:-10px;
+}
+.box1 div>p{
+    color:rgb(230, 230, 154);
+    font-size:10px;
+}
+.box1>p{
+    color:rgb(237, 187, 187);
+}
+.box1>h4{
+    color:white;
+    font-size:30px;
+    margin-bottom:-10px;
+}
+.box1>h2{
+    color:rgb(206, 150, 76);
+    font-size:15px;
+}
+.box2{
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+    background:whitesmoke;
+    width:40vw;
+    border-radius:5%;
+    gap:3vh;
+}
+.box2 div{
+    padding:0.5vh;
+}
+.box2 h1{
+    font-size:20px;
+}
+.box11{
+    border-radius:10%;
+    background-color:hsla(0, 71%, 66%, 0.483);
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+.box111{
+    color:hsl(0, 71%, 66%);
+}
+.box22{
+    border-radius:10%;
+    background-color:rgba(250, 235, 215, 0.495);
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+.box221{
+    color:rgb(236, 149, 35);
+}
+.box3{
+    border-radius:10%;
+    background-color:hsla(123, 46%, 75%, 0.435);
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+.box31{
+    color:hsl(123, 79%, 51%);
+}
+.box4{
+    border-radius:10%;
+    background-color:hsla(224, 63%, 63%, 0.232);
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+.box41{
+    color:hsl(224, 63%, 63%);
+}
+.box2 button{
+    color:white;
+    background-color: rgb(8, 8, 119);
+    border-radius:1em;
+    padding:.5em;
+}
+.box2 button:hover{
+    background-color: brown;
+    color:black;
+}

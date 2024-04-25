@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color: rgba(0, 128, 0, 0.213);
+}
+.box{
+    background-color:red;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+.box1{
+    display:none;
+}
